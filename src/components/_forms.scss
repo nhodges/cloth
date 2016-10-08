@@ -4,4 +4,8 @@ input, textarea {
   font-size: $font-size-base;
   outline: none;
   padding: 1rem;
+  &.input--block {
+    display: block;
+    width: 100%;
+  }
 }

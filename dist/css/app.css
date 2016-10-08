@@ -86,3 +86,22 @@ input, textarea {
   font-size: 1rem;
   outline: none;
   padding: 1rem; }
+  input.input--block, textarea.input--block {
+    display: block;
+    width: 100%; }
+
+.autocomplete__wrapper {
+  position: relative; }
+  .autocomplete__wrapper .autocomplete__results {
+    background-color: #fff;
+    position: absolute;
+    text-align: left;
+    width: 100%; }
+    .autocomplete__wrapper .autocomplete__results:before {
+      background-color: #fff;
+      content: \00a0;
+      display: block;
+      height: 3px;
+      position: absolute;
+      top: -3px;
+      width: 100%; }
