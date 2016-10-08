@@ -4,4 +4,7 @@
 button, .btn {
   background-color: $color-bg-btn;
   border-radius: $border-radius;
+  border: none;
+  font-size: $font-size-base;
+  padding: 1rem;
 }

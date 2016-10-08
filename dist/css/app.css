@@ -59,7 +59,10 @@ body {
 
 button, .btn {
   background-color: #aaa;
-  border-radius: 3px; }
+  border-radius: 3px;
+  border: none;
+  font-size: 1rem;
+  padding: 1rem; }
 
 input, textarea {
   border-radius: 3px;
