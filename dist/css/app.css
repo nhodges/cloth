@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i';
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,6 +47,7 @@ table {
   border-spacing: 0; }
 
 body {
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1rem; }
 
 .flx {
@@ -99,9 +101,13 @@ input, textarea {
     width: 100%; }
     .autocomplete__wrapper .autocomplete__results:before {
       background-color: #fff;
-      content: \00a0;
+      content: "\00a0";
       display: block;
       height: 3px;
       position: absolute;
       top: -3px;
       width: 100%; }
+    .autocomplete__wrapper .autocomplete__results a {
+      cursor: pointer;
+      display: block;
+      padding: 1rem; }
