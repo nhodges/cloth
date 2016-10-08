@@ -45,6 +45,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  font-size: 1rem; }
+
 .table {
   display: table;
   height: 100%;
@@ -56,7 +59,10 @@ table {
 
 button, .btn {
   background-color: #aaa;
-  border-radius: 5px; }
+  border-radius: 3px; }
 
 input, textarea {
-  border-radius: 5px; }
+  border-radius: 3px;
+  border: none;
+  font-size: 1rem;
+  padding: 1rem; }
