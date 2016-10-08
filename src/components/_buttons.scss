@@ -1,0 +1,7 @@
+@import '../colors';
+@import '../variables';
+
+button, .btn {
+  background-color: $color-bg-btn;
+  border-radius: $border-radius;
+}

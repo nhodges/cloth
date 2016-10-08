@@ -53,3 +53,10 @@ table {
     display: table-cell; }
     .table .table__cell.table__cell--vmiddle {
       vertical-align: middle; }
+
+button, .btn {
+  background-color: #aaa;
+  border-radius: 5px; }
+
+input, textarea {
+  border-radius: 5px; }
