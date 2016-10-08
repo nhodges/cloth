@@ -9,6 +9,7 @@
   .autocomplete__results {
 
     background-color: #fff;
+    border-radius: 0 0 $border-radius $border-radius;
     position: absolute;
     text-align: left;
     width: 100%;
