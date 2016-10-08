@@ -77,10 +77,12 @@ button, .btn {
   border-radius: 3px;
   border: none;
   font-size: 1rem;
+  outline: none;
   padding: 1rem; }
 
 input, textarea {
   border-radius: 3px;
   border: none;
   font-size: 1rem;
+  outline: none;
   padding: 1rem; }
