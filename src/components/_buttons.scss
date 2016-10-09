@@ -8,4 +8,9 @@ button, .btn {
   font-size: $font-size-base;
   outline: none;
   padding: 1rem;
+  &.btn--outline {
+    background-color: transparent;
+    border: 3px solid $color-bg-btn;
+    color: $color-bg-btn;
+  }
 }
