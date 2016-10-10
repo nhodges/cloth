@@ -19,3 +19,10 @@
     flex: 6;
   }
 }
+
+.flx {
+  padding: 1rem .5rem;
+  > [class*=flx__] {
+    margin: 0 .5rem;
+  }
+}
