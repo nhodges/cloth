@@ -54,7 +54,12 @@ body {
   font-size: 1rem; }
 
 .flx {
-  display: flex; }
+  display: flex;
+  padding: 1rem .5rem; }
+  .flx.flx--vmiddle {
+    align-items: center; }
+  .flx > [class*=flx__] {
+    margin: 0 .5rem; }
   .flx .flx__1 {
     flex: 1; }
   .flx .flx__2 {
