@@ -78,6 +78,24 @@ body {
   .flx .flx__6 {
     flex-basis: 50%;
     max-width: 50%; }
+  .flx .flx__7 {
+    flex-basis: 58.33333333%;
+    max-width: 58.33333333%; }
+  .flx .flx__8 {
+    flex-basis: 66.66666667%;
+    max-width: 66.66666667%; }
+  .flx .flx__9 {
+    flex-basis: 75%;
+    max-width: 75%; }
+  .flx .flx__10 {
+    flex-basis: 83.33333333%;
+    max-width: 83.33333333%; }
+  .flx .flx__11 {
+    flex-basis: 91.66666667%;
+    max-width: 91.66666667%; }
+  .flx .flx__12 {
+    flex-basis: 100%;
+    max-width: 100%; }
 
 .flx {
   padding: 1rem .5rem; }
