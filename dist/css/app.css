@@ -155,8 +155,8 @@ input, textarea {
       padding: 1rem; }
 
 .asp {
-  background-repeat: none;
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%; }
   .asp .asp__media {
     height: 0;
