@@ -1,0 +1,12 @@
+.asp {
+  width: 100%;
+  .media {
+    background-repeat: none;
+    background-size: 100%;
+    height: 0;
+    width: 100%;
+  }
+  &.asp--4x3 {
+    padding-bottom: 75%;
+  }
+}
