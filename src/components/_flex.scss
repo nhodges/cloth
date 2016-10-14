@@ -6,6 +6,9 @@
   }
   > [class*=flx__] {
     margin: 0 .5rem;
+    > .flx {
+      margin: 0 -1rem;
+    }
   }
   .flx__1 {
     flex-basis: 8.33333333%;

@@ -60,6 +60,8 @@ body {
     align-items: center; }
   .flx > [class*=flx__] {
     margin: 0 .5rem; }
+    .flx > [class*=flx__] > .flx {
+      margin: 0 -1rem; }
   .flx .flx__1 {
     flex-basis: 8.33333333%;
     max-width: 8.33333333%; }
