@@ -54,14 +54,9 @@ body {
   font-size: 1rem; }
 
 .flx {
-  display: flex;
-  padding: 0 .5rem; }
+  display: flex; }
   .flx.flx--vmiddle {
     align-items: center; }
-  .flx > [class*=flx__] {
-    margin: 0 .5rem; }
-    .flx > [class*=flx__] > .flx {
-      margin: 0 -1rem; }
   .flx .flx__1 {
     flex-basis: 8.33333333%;
     max-width: 8.33333333%; }
@@ -100,9 +95,11 @@ body {
     max-width: 100%; }
 
 .flx {
-  padding: 1rem .5rem; }
+  padding: 0rem .5rem; }
   .flx > [class*=flx__] {
     margin: 0 .5rem; }
+    .flx > [class*=flx__] > .flx {
+      margin: 0 -1rem; }
 
 .table {
   display: table;

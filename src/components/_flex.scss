@@ -1,14 +1,7 @@
 .flx {
   display: flex;
-  padding: 0 .5rem;
   &.flx--vmiddle {
     align-items: center;
-  }
-  > [class*=flx__] {
-    margin: 0 .5rem;
-    > .flx {
-      margin: 0 -1rem;
-    }
   }
   .flx__1 {
     flex-basis: 8.33333333%;
@@ -61,8 +54,11 @@
 }
 
 .flx {
-  padding: 1rem .5rem;
+  padding: 0rem .5rem;
   > [class*=flx__] {
     margin: 0 .5rem;
+    > .flx {
+      margin: 0 -1rem;
+    }
   }
 }
