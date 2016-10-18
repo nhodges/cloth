@@ -124,7 +124,7 @@ button, .btn {
     color: #aaa; }
   button.btn--sm, .btn.btn--sm {
     font-size: .8rem;
-    padding: .5rem 1rem;
+    padding: .25rem .5rem;
     text-transform: uppercase; }
 
 input, textarea {
