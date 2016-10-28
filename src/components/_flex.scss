@@ -1,3 +1,7 @@
+:root {
+  --gutter-width: .5rem;
+}
+
 .flx {
   display: flex;
   &.flx--vmiddle {
@@ -54,7 +58,7 @@
 }
 
 .flx {
-  padding: 0rem .5rem;
+  padding: 0rem var(--gutter-width, .5rem);
   > [class*=flx__] {
     margin: 0 .5rem;
     > .flx {
