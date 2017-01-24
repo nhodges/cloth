@@ -1,0 +1,17 @@
+ul.dropdown {
+  display: block;
+  li {
+    position: relative;
+    &:hover {
+      ul {
+        display: block;
+      }
+    }
+    ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      width: 100%;
+    }
+  }
+}
