@@ -53,6 +53,12 @@ body {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1rem; }
 
+.float--left {
+  float: left; }
+
+.float--right {
+  float: right; }
+
 .halign--left {
   text-align: left; }
 
