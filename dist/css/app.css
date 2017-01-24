@@ -137,6 +137,18 @@ input, textarea {
     display: block;
     width: 100%; }
 
+ul.dropdown {
+  display: block; }
+  ul.dropdown li {
+    position: relative; }
+    ul.dropdown li:hover ul {
+      display: block; }
+    ul.dropdown li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      width: 100%; }
+
 .autocomplete__wrapper {
   position: relative; }
   .autocomplete__wrapper .autocomplete__results {
