@@ -2,6 +2,10 @@ ul.dropdown {
   display: block;
   > li {
     position: relative;
+    .dropdown__label {
+      background-color: #aaa;
+      display: block;
+    }
     &:hover {
       > ul {
         display: block;
@@ -17,15 +21,17 @@ ul.dropdown {
   &.dropdown--sm {
     > li {
       .dropdown__label {
-        background-color: #aaa;
-        border-radius: 3px;
-        border: none;
-        cursor: pointer;
         font-size: .8rem;
-        outline: none;
-        display: block;
-        width: 200px;
         padding: .5rem;
+      }
+      > ul {
+        > li {
+          > a {
+            cursor: pointer;
+            display: block;
+            padding: .5rem;
+          }
+        }
       }
     }
   }
