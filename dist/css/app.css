@@ -53,6 +53,15 @@ body {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1rem; }
 
+.halign--left {
+  text-align: left; }
+
+.halign--center {
+  text-align: center; }
+
+.halign--right {
+  text-align: right; }
+
 .flx {
   display: flex; }
   .flx.flx--vmiddle {
