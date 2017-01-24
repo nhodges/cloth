@@ -1,17 +1,32 @@
 ul.dropdown {
   display: block;
-  li {
+  > li {
     position: relative;
     &:hover {
-      ul {
+      > ul {
         display: block;
       }
     }
-    ul {
+    > ul {
       display: none;
       position: absolute;
       top: 100%;
       width: 100%;
+    }
+  }
+  &.dropdown--sm {
+    > li {
+      .dropdown__label {
+        background-color: #aaa;
+        border-radius: 3px;
+        border: none;
+        cursor: pointer;
+        font-size: .8rem;
+        outline: none;
+        display: block;
+        width: 200px;
+        padding: .5rem;
+      }
     }
   }
 }

@@ -154,15 +154,25 @@ input, textarea {
 
 ul.dropdown {
   display: block; }
-  ul.dropdown li {
+  ul.dropdown > li {
     position: relative; }
-    ul.dropdown li:hover ul {
+    ul.dropdown > li:hover > ul {
       display: block; }
-    ul.dropdown li ul {
+    ul.dropdown > li > ul {
       display: none;
       position: absolute;
       top: 100%;
       width: 100%; }
+  ul.dropdown.dropdown--sm > li .dropdown__label {
+    background-color: #aaa;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: .8rem;
+    outline: none;
+    display: block;
+    width: 200px;
+    padding: .5rem; }
 
 .autocomplete__wrapper {
   position: relative; }
