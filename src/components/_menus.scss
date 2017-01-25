@@ -1,21 +1,42 @@
 ul.dropdown {
+  border-radius: 3px;
   display: block;
   > li {
+    line-height: 1;
     position: relative;
     .dropdown__label {
       background-color: #aaa;
+      border-radius: 3px;
       display: block;
     }
     &:hover {
+      .dropdown__label {
+        border-radius: 3px 3px 0 0;
+      }
       > ul {
         display: block;
       }
     }
     > ul {
+      background-color: #aaa;
+      border-radius: 0 0 3px 3px;
       display: none;
       position: absolute;
       top: 100%;
       width: 100%;
+      > li {
+        line-height: 1;
+        > a {
+          line-height: 1;
+          &:active, &:hover {
+            background-color: #cfcfcf;
+          }
+        }
+        &:last-of-type {
+          border-radius: 0 0 3px 3px;
+          overflow: hidden;
+        }
+      }
     }
   }
   &.dropdown--sm {
@@ -28,6 +49,7 @@ ul.dropdown {
         > li {
           > a {
             cursor: pointer;
+            font-size: .8rem;
             display: block;
             padding: .5rem;
           }

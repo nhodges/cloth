@@ -1,0 +1,42 @@
+.modal {
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  &.modal--open {
+    display: block;
+    z-index: 10;
+  }
+  .modal__backdrop {
+    background-color: rgba(0, 0, 0, .85);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+  .modal__interface {
+    background-color: #fff;
+    border-radius: 3px;
+    display: block;
+    margin: 100px auto auto;
+    overflow: hidden;
+    position: relative;
+    width: 800px;
+    z-index: 2;
+    .modal__header {
+      background-color: #aaa;
+      padding: 1rem;
+    }
+    .modal__content {
+      padding: 1rem;
+    }
+    .modal__footer {
+      padding: 1rem;
+    }
+  }
+}
